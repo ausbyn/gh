@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
 /* 
 
 	project: Conceptnova (free CSS template)
@@ -45,3 +48,16 @@ img { border: 0; }
 		input.submit { width: 53px; height: 29px; border: none; background: #FFF url(https://s23.postimg.org/n4l1jiyff/submit.gif) no-repeat; font: bold 1.2em Arial, Sans-Serif; padding: 0px; color: #FFF; }
 
 #footer { clear: both; padding: 10px;  margin: 10px 0 0 0; border-top: 1px solid #ccc; line-height: 2em; }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
